@@ -1,0 +1,61 @@
+/*页面主体部分*/
+
+body {
+	padding: 20px;
+}
+article,aside {
+	display: block;
+}
+.main_body,.sidebar {
+	float: left;
+}
+.wraper {
+	background-color: #eee;
+	padding: 20px;
+	border:1px solid #999;
+}
+.wraper:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+/*中间部分*/
+.main_body {
+	background-color: #fff;
+	margin-left: 220px;
+	margin-right: 140px;
+	border:1px solid #999;
+}
+
+/*左侧边栏team logo*/
+
+.team_logo {
+	background-color: #fff;
+	width:158px;
+	height: 80px;
+	margin-left: -100%;
+	background-color: #fff;
+	padding: 20px;
+	border:1px solid #999;
+}
+.team_logo img {
+    float: left;
+}
+.description {
+	margin-left: 100px;
+	word-wrap: break-word;
+}
+/*右侧边栏 member logo*/
+.memeber_logo {
+	width: 78px;
+	margin-left: -120px;
+	background-color: #fff;
+	padding: 20px;
+    border:1px solid #999;
+}
+img {
+	display: block;
+}
+img:not(:first-child) {
+	margin-top: 20px;
+}
