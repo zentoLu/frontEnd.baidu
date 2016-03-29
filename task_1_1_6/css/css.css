@@ -1,0 +1,380 @@
+/*reset css*/
+* {
+	margin: 0;
+	padding: 0;
+}
+header {
+	display: block;
+}
+
+
+body {
+	background-color: #b1b1b1;   /* 做的时候有个背景容易看出来效果*/
+}
+.newspaper {
+	width: 980px;
+	height: 1386px;
+	background-color: #fff;
+	margin:20px auto;
+	color: #333333;
+}
+section,head {
+	display: block;
+}
+
+/*页面主题部分*/
+.newspaper {
+	padding: 0 44px;
+	box-sizing: border-box;
+}
+
+/*header section */
+header {
+	height: 63px;
+	border-bottom: 2px solid #938e8c;
+	position: relative;
+	box-sizing: border-box;
+}
+.baidu_ife {
+	width: 110px;
+	height: 61px;
+	background: #d45d5c;
+}
+.baidu_ife  span {
+	font:  12px "黑体";
+	color: #fff ;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.baidu_time {
+	font:12px  "黑体";
+	color: #d45d5c;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+/*first section 部分*/
+.first {
+	position: relative;
+	margin-top: 20px;
+}
+.zuoshangdatu {
+	width: 641px;
+	height: 301px;
+	position: relative;
+	box-sizing: border-box;
+}
+.first .green_zhezhao {
+	height: 301px;
+	width: 191px;
+	background-color: #a0c5ac;
+	position: absolute;
+    filter: opacity(50%);
+    -webkit-filter:opacity(50%); 
+}
+.first .red_zhezhao {
+	width: 191px;
+	height: 301px;
+	background-color: #e5babf;
+	position: absolute;
+	top: 0;
+	right: 0;
+	filter: opacity(50%);
+    -webkit-filter:opacity(50%); 
+}
+.abouttechnology {
+	width: 203px;
+	position: absolute;
+	left: 689px;
+	top: 0;
+	border-top: 2px solid #cc8091;
+}
+.first .abouttechnology .headetitle p {
+	font: 24px "Microsoft YaHei";
+	font-variant: small-caps;
+	line-height: 40px;
+	text-decoration: underline;
+}
+
+.first .abouttechnology .headcontent {
+	font: 12px "楷体";
+	color: #676767 ;
+	line-height: 10px;
+}
+.first .abouttechnology .headcontent:first-letter {
+	text-transform: uppercase;
+}
+.first .abouttechnology .headnumeric p:first-child {
+	font: italic 116px  "Microsoft YaHei" ;
+	color: #75b86b;
+	position: relative;
+    left: -10px;
+    height: 125px;
+    line-height: 125px;
+}
+.first .abouttechnology .headnumeric p:last-child span:first-child{
+    font: 55px "Microsoft YaHei";
+    color: #cc8091;
+
+}
+.first .abouttechnology .headnumeric p:last-child span:nth-child(2) {
+	font: 21px "Microsoft YaHei";
+	color: #cc8091;
+	position: absolute;
+	bottom: 20px;
+}
+.first .abouttechnology .headnumeric p:last-child span:last-child{
+    font: 12px "Microsoft YaHei";
+    color: #cc8091;
+}
+/*second section 部分*/
+.second {
+	width: 641px;
+	overflow: hidden;
+	margin-top: 20px;
+}
+.second div {
+	float: left;
+	box-sizing: border-box;
+	padding-right: 20px;
+}
+.second div h3 {
+	margin:10px 0;
+	font: bold 16px  "Microsoft YaHei" ;
+	text-decoration: underline;
+}
+.second div p {
+	font: 12px "Microsoft YaHei"
+}
+.secondwhat {
+	width: 40%;
+} 
+.secondwhat h3 {
+	color: #418c59;
+}
+.second .secondwhat p {
+	color: #767777;
+	font-family:"SimSun";
+}
+.secondwhen {
+	width: 30%;
+}
+.secondwhen h3 {
+	color: #d2994f;
+}
+.second .secondwhen p {
+	color: #231815;
+	opacity: 0.7;
+}
+.secondhow {
+	width: 30%;
+}
+.secondhow h3 {
+	color: #cc7680;
+}
+.second .secondhow p {
+	
+	opacity: 0.7;
+}
+.second .secondhow .secondtext {
+	margin-top: 15px;
+}
+.second .secondhow .secondtext p {
+    text-transform: capitalize;
+   
+}
+.second .secondhow .secondtext p span {
+	font: 12px "Microsoft YaHei";
+	color: #cd4a48;
+}
+/*third section 部分*/
+.third {
+	position: relative;
+	margin-top: 60px;
+}
+.third .content {
+	width: 415px;
+	
+}
+.third .content  .contentHead  {
+	border-bottom: 2px solid #11456b;
+}
+.third .content  .contentHead p:first-child {
+	text-transform: uppercase;
+	font: bold 42px "黑体";
+	color: #11456b; 
+	
+}
+.third .content   .contentHead p:first-child span {
+    font: bold italic 72px "黑体" ;
+    color: #f5e327;
+    margin-right: 10px;
+}
+.third .content .contentHead p:last-child {
+	font: bold 42px "黑体";
+	color: #11456b;  
+}
+.third .content .contentArticle {
+	padding:20px 0;
+}
+.third .content .contentArticle p {
+	font: 12px "宋体";
+	color: #767777;
+	line-height: 16px;
+    
+}
+.third .content .contentArticle p.articlepara {
+	text-indent: 30px;
+}
+.third .content .contentArticle img {
+	float: right;
+	margin: 10px 0 10px 10px;
+}
+
+section.third .content .contentArticle .articleFirst:first-letter {
+	font: 70px "Microsoft YaHei";
+	color: #f5e327;
+	float: left;
+}
+/*third 部分 右半部分*/
+.third .pics {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.third .pics .mainpic {
+	width: 458px;
+	height: 257px;
+	position: relative;
+}
+.third .pics .mainpic .cover {
+	height: 61px;
+	width:100%;
+	background-color: #555;
+	opacity: 0.5;
+	position: absolute;
+	bottom: 0;
+}
+.third .pics .mainpic .coverContent p {
+	height: 44px;
+	color: #fff;
+	border-left: 3px solid #72b16a;
+	padding-left: 20px;
+	margin-left: 20px;
+    line-height: 61px;
+    bottom: 8px;
+    font: 26px  "Microsoft YaHei";
+    position: absolute;
+}
+.third .pics .mainpic .coverContent p span {
+	color: #72b16a;
+	font: italic 12px "Microsoft YaHei";
+	letter-spacing: 140%;
+}
+.third .pics .list {
+	width: 459px;
+	height: 318px;
+	background-color: #b5b5b5;
+	padding-top: 20px;
+	margin-top: 20px;
+	position: relative;
+}
+.third .pics .list ol {
+	list-style-position: inside;
+	list-style-type: none;
+	color: #5a5b5b;
+	font: 16px "宋体";
+	line-height: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.third .pics .list ol li {
+	margin-top: 10px;
+	width: 100%;
+}
+.third .pics .list ol li span {
+	font: italic 12px "宋体"; 
+
+	color: #5a5b5b;
+	float: right;
+}
+.third .pics .list .listPic .listLeft {
+    width: 260px;
+    height: 160px;
+    background-color: #bb3333;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.third .pics .list .listPic .listLeft  {
+	color: #fff;
+	text-transform: uppercase;
+	vertical-align: middle;
+}
+.third .pics .list .listPic .listLeft .numberZero {
+	font: 110px "Microsoft YaHei";
+	float: left;
+	
+}
+.third .pics .list .listPic .listLeft .text {
+	height: 86px;
+}
+.numberEn {
+	font: italic 21px "黑体";
+}
+.third .pics .list .listPic .listLeft .welcome {
+	text-transform: lowercase;
+	font: italic 12px "黑体";
+}
+.third .pics .list .listPic .listLeft .text {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 80px;
+	width: 160px;
+	overflow: hidden;
+	border-left: 2px solid #fff;
+	padding-left: 10px;
+}
+.third .pics .list .listPic .listRight {
+	width: 188px;
+	height: 160px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	overflow: hidden;
+}
+.third .pics .list .listPic .listRight p {
+	font: italic 14px "黑体";
+	color: #5a5b5b;
+}
+.third .pics .list .listPic .listRight p .yinHaoQian {
+	content: '“';
+	font:72px "黑体";
+	color: #d45d5c;
+	float: left;
+	height: 30px;
+	left: -30px;
+	margin-left: -30px;
+	
+}
+.third .pics .list .listPic .listRight p .yinHaoHou {
+	content: '“';
+	font:72px "黑体";
+	color: #d45d5c;
+	float: right;
+	
+}
+/*footer 部分*/
+.footer {
+	height: 61px;
+	border-top: 1px solid #938e8c;
+	margin-top: 10px;
+}
+.footer span {
+   color:#d4545c;
+   font: 12px "黑体";
+   float: right;
+}
